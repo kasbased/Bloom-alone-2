@@ -142,7 +142,7 @@ main {
 
 .herotable {
    display: flex;
-   font-size: 0.2rem;
+   font-size: 0.5rem;
    width: 100%;
    margin-left: 0;
    padding-right: 40px;
@@ -168,10 +168,12 @@ h6 {
    margin-top: 0;
    height: 15px;
    text-align: center;
+   font-size: 10px;
 }
 
 .p-pack {
    font-weight: bolder;
+   font-size: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
 }
@@ -207,7 +209,7 @@ footer {
 
 address {
    color: #fff;
-   font-size: 2px;
+   font-size: 10px;
    width: 50%;
    margin: auto;
    text-align: center;
@@ -220,7 +222,7 @@ a {
 }
 .cpright {
    background-color: #000;
-   font-size: 2px;
+   font-size: 12px;
    text-align: center;
    width: 100%;
    position: bottom;
