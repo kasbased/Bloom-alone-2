@@ -1,0 +1,225 @@
+@media (prefers-reduced-motion: no-preference) {* {
+   scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Source+Sans+3:wght@400..900&display=swap');
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+   background-image: linear-gradient(to right, #ff00ff, #86043e);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-family: 'Tahoma', anton;
+   margin-bottom: 0;
+}
+
+#logo {
+   width: max(100px, 18vw);
+   height: 40px;
+   aspect-ratio: 16 / 4;
+   padding: 0.4rem;
+}
+
+header {
+   background-image: linear-gradient(to left, #ff00ff, #86043e);
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   text-align: right;   
+   width: 90%;
+   height: 50px;
+   position: fixed;
+   top: 0;
+}
+
+nav ul {
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: right;
+   height: 100%;
+}
+
+nav ul li {
+   display: flex;
+   margin-top: 20px;
+   padding-right: 5px;
+   font-size: 10px;
+   text-decoration: none;
+   font-family: 'tahoma' , arial;
+}
+
+li > a {
+   color: inherit;
+   font-family: anton;
+   font-weight: bolder;
+   text-decoration: none;
+}
+
+h1 {
+   color: #fff;
+   font-size: min(5vw, 1.2em);
+   font-family: 'helvetica', Tahoma;
+   font-weight: bolder;
+   padding-top: 100;
+   text-align: center;
+}
+
+main {
+   padding-top: 100px;
+}
+
+.hero-head {
+   font-size: 14px;
+   text-align: center;
+}
+
+#pb {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 50%;
+}
+
+.intro {
+   border-style: groove;
+   border-width: 4px;
+   border-color: red, yellow;
+   margin: auto;
+   display: block;
+   width: 60%;
+   font-size: 9px;
+   text-align: center;
+}
+
+.container .s-list {
+   background-color: #000000;
+   width: 100%;
+   margin-top: 50px;
+   padding-top: 30px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 30px;
+}
+
+.service {
+   margin-right: 40px;
+}
+
+#intro-h2 {
+   background-color: #9900cc;
+   font-size: 13px;
+   padding: 3px;
+}
+
+#list {
+   padding-left: 0;
+   list-style-type: none;
+   padding-right: 40px;
+}
+
+.service2 ul li {
+   font-weight: bold;
+}
+.service2 p {
+   font-size: 12px;
+}
+
+.container .p-table {
+   margin-top: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 30px;
+}
+
+.herotable {
+   display: flex;
+   font-size: 0.2rem;
+   width: 100%;
+   margin-left: 0;
+   padding-right: 40px;
+}
+
+h6 {
+   width: 300px;
+   margin: 20px 40px 10px 20px;
+}
+
+.table1 {
+   border: 2px solid #660099;
+   border-radius: 5px;
+   margin: 2px;
+   padding-bottom: 5px;
+   width: 100%;
+   text-align: center;
+}
+
+#p-head {
+   background-color: #660099;
+   padding-top: 2px;
+   margin-top: 0;
+   height: 15px;
+   text-align: center;
+}
+
+.p-pack {
+   font-weight: bolder;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.p-list {
+   list-style-type: none;
+   padding:0;
+}
+
+footer {
+   display: block;
+   justify-content: center;
+}
+
+#f-head {
+   background-color: #9900cc;
+   width: 50%;
+   height: 20px;
+   margin: auto;
+   text-align: center;
+   font-size: 10px;
+   font-family: helvetica;
+   font-weight: bold;
+   padding-top: 8px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+address {
+   color: #fff;
+   font-size: 2px;
+   width: 50%;
+   margin: auto;
+   text-align: center;
+   padding-top: 10px;
+}
+
+a {
+   color: #fff;
+   text-decoration: none;
+}
+.cpright {
+   background-color: #000;
+   font-size: 2px;
+   text-align: center;
+   width: 100%;
+   position: bottom;
+   display: block;
+   margin: 30px 40px 0 0;
+   padding: 10px 40px 10px 10px;
+   border-top: solid 5px grey;
+   text-decoration: none;
+}
